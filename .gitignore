@@ -1,0 +1,47 @@
+# Packages
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.parallelperf.*
+
+# IDE
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/dist
+/build
+/out
+/out-tsc
+/tmp
+
+# Testing
+/coverage
+/test-results
+
+# Cache
+.nx-cache
+.nx/cache
+.eslintcache
+/.angular
+
+# Misc
+/.sass-cache
+/connect.lock

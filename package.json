@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "description": "My code for the Advent of Code 2024. See https://adventofcode.com/2024.",
+  "type": "module",
+  "scripts": {
+    "day-1": "bun run day-1/src/index.ts"
+  },
+  "author": {
+    "name": "Shane Yu",
+    "url": "https://shaneyu.com"
+  },
+  "license": "MIT",
+  "packageManager": "bun@1.1.38",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
