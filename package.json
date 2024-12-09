@@ -4,7 +4,8 @@
   "description": "My code for the Advent of Code 2024. See https://adventofcode.com/2024.",
   "type": "module",
   "scripts": {
-    "day-1": "bun run day-1/src/index.ts"
+    "day-1": "bun run day-1/src/index.ts",
+    "day-2": "bun run day-2/src/index.ts"
   },
   "author": {
     "name": "Shane Yu",
