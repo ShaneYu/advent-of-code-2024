@@ -8,7 +8,8 @@
     "day-2": "bun run day-2/src/index.ts",
     "day-3": "bun run day-3/src/index.ts",
     "day-4": "bun run day-4/src/index.ts",
-    "day-5": "bun run day-5/src/index.ts"
+    "day-5": "bun run day-5/src/index.ts",
+    "day-6": "bun run day-6/src/index.ts"
   },
   "author": {
     "name": "Shane Yu",
