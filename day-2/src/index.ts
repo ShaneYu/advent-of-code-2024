@@ -17,6 +17,20 @@ const diffNoGreaterThanThree = (data: number[]) =>
 const calculateDifferences = (data: number[]) =>
   data.slice(1).map((level, i) => level - data[i]);
 
+
+// -- [ Part 1 ] --
+
+const safeReports = reportData.filter(data => {
+  const differences = calculateDifferences(data);
+
+  return allPositiveOrNegative(differences) && diffNoGreaterThanThree(data);
+}).length;
+
+console.log(`Part 1: Total "safe" reports: ${safeReports}`);
+
+
+// -- [ Part 2 ] --
+
 const isValidAfterRemovingOne = (data: number[]) => {
   for (let i = 0; i < data.length; i++) {
     const filteredData = data.filter((_, index) => index !== i);
@@ -30,7 +44,7 @@ const isValidAfterRemovingOne = (data: number[]) => {
   return false;
 };
 
-const safeReports = reportData.filter(data => {
+const safeReportsWithDampening = reportData.filter(data => {
   const differences = calculateDifferences(data);
 
   return (
@@ -39,4 +53,4 @@ const safeReports = reportData.filter(data => {
   );
 }).length;
 
-console.log(`Total "safe" reports: ${safeReports}`);
+console.log(`Part 2: Total "safe" reports: ${safeReportsWithDampening}`);
